@@ -1,4 +1,3 @@
-# Hash Pass 
-## Chrome Extension
-Unique passwords for each domain based on a unique master password. Hashing algorithm defined on supergenpass-lib. 
+# Hash Pass Chrome Extension
+Generates unique passwords for each domain based on a unique master password. Hashing algorithm defined on supergenpass-lib in order to generated a valid hash that is compatible with general password criteria. 
 
