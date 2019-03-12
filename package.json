@@ -1,0 +1,23 @@
+{
+  "name": "hash-pass",
+  "version": "1.0.0",
+  "description": "Make unique passwords by hasing a master password. Based on SuperGenPass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "supergenpass-lib": "^3.0.1"
+  }
+}
