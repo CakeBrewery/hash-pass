@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	    toStore[key] = value;
 		chrome.storage.sync.set(toStore);
 	}).each(function(i) {
-	    // Used to load all the settings when the widget is opened.
+	    // Used to load all the settings when the extension is opened.
         var $elem = $(this);
 		var key = $elem.attr('id');
 
